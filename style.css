@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+  /* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -803,15 +803,8 @@ body {
   transition: color 0.3s ease;
 }
 
-.adab-icon i {
-  width: 25px;
-  height: 25px;
-  color: #6e5141;
-  transition: color 0.3s ease;
-  z-index: 3;
-}
 
-.adab-item:hover .adab-icon svg i {
+.adab-item:hover .adab-icon svg {
   color: white;
 }
 
