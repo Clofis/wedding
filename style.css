@@ -808,6 +808,7 @@ body {
   height: 25px;
   color: #6e5141;
   transition: color 0.3s ease;
+  z-index: 3;
 }
 
 .adab-item:hover .adab-icon svg i {
