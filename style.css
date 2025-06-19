@@ -803,7 +803,14 @@ body {
   transition: color 0.3s ease;
 }
 
-.adab-item:hover .adab-icon svg {
+.adab-icon i {
+  width: 25px;
+  height: 25px;
+  color: #6e5141;
+  transition: color 0.3s ease;
+}
+
+.adab-item:hover .adab-icon svg i {
   color: white;
 }
 
